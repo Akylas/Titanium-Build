@@ -1,0 +1,14 @@
+{
+  ".platform-darwin atom-workspace, .platform-darwin atom-text-editor": {
+    "shift-cmd-r": "titanium-build:history",
+    "cmd-r": "titanium-build:last",
+    "cmd-b": "titanium-build:run",
+    "shift-cmd-c": "titanium-build:clean"
+  },
+  ".platform-linux atom-workspace, .platform-linux atom-text-editor, .platform-win32 atom-workspace, .platform-win32 atom-text-editor": {
+    "shift-ctrl-r": "titanium-build:history",
+    "ctrl-r": "titanium-build:last",
+    "ctrl-b": "titanium-build:run",
+    "shift-ctrl-c": "titanium-build:clean"
+  }
+}

@@ -6,9 +6,14 @@
         'label': 'Titanium Build'
         'submenu': [
           {
+            'label': 'Build'
+            'command': 'titanium-build:run'
+          }
+          {
             'label': 'iPhone Simulator'
             'command': 'titanium-build:run-iphone'
           }
+
           {
             'label': 'Android'
             'submenu': [
